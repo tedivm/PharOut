@@ -3,7 +3,7 @@
     "description": "",
     "keywords": ["",""],
     "homepage": "http://github.com/tedivm/PharOut",
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,8 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "symfony/console": "v2.5.0"
+        "symfony/console": "2.5.*",
+        "symfony/finder": "2.5.*"
     },
     "require-dev": {
         "phpunit/phpunit": "4.0.*",
